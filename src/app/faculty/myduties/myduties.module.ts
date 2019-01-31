@@ -7,6 +7,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ExpertlectureComponent } from './expertlecture/expertlecture.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TeamComponent } from './team/team.component';
+import { WorkshopandconferenceComponent } from './workshopandconference/workshopandconference.component';
+import { TaskslistComponent } from './taskslist/taskslist.component';
 
 @NgModule({
   imports: [
@@ -14,6 +16,6 @@ import { TeamComponent } from './team/team.component';
     MydutiesRoutingModule,
   
   ],
-  declarations: [MydutiesComponent, NavigationComponent, ExpertlectureComponent, ProfileComponent, TeamComponent]
+  declarations: [MydutiesComponent, NavigationComponent, ExpertlectureComponent, ProfileComponent, TeamComponent, WorkshopandconferenceComponent, TaskslistComponent]
 })
 export class MydutiesModule { }

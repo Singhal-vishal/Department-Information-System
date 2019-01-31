@@ -11,5 +11,10 @@ export class RemainingComplaintsComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  clickMethod() {
+    if(confirm("Are you sure you want to continue")) {
+      
+    }
+  }
+  
 }
